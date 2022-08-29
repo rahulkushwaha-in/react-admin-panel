@@ -1,0 +1,42 @@
+.widget{
+    background:rgb(255, 255, 255,0.9);
+    flex: 1;
+    margin: 0 .5rem;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 1rem;
+    border-radius: 1.5rem;
+    .left{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        .title{
+            color: gray;
+            font-weight: 600;
+        }
+        .user-count{
+            font-size: 2rem;
+            color: rgba(0, 0, 0, 0.726);
+        }
+        
+    }
+    .right{
+        // padding-top: 2rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        .icon{
+            font-size: 3rem;
+        }
+
+        .link{
+           color: rgba(128, 128, 128, 0.6);
+           padding-bottom:.5rem ;
+        }
+    }
+
+}

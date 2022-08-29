@@ -52,7 +52,7 @@ body{
         width: 35%;
         height: 30rem;
         margin-top: 2rem;
-        background-color: rgb(255, 255, 255,0.9);
+        background-color: rgb(255, 255, 255);
         border-radius: 2rem;
         margin-left: .5rem;
         // overflow-y: scroll;
@@ -61,7 +61,7 @@ body{
         // -ms-overflow-style: none;
         
           h3{
-            color: grey;
+            color: rgb(0, 0, 0);
             display: flex;
             align-items: center;
             justify-content: center;
@@ -89,7 +89,7 @@ body{
         ul{
             list-style: none;
             :hover{
-                background-color: rgb(255, 255, 255);
+                background-color: rgb(233, 231, 231);
                 border-radius: 2rem;
                 
             }
@@ -116,10 +116,10 @@ body{
         width: 50%;
         height: 30rem;
         margin-top: 2rem;
-        background-color: rgb(255, 255, 255,0.9);
+        background-color: rgb(246, 246, 246);
         border-radius: 2rem;
         h3{
-            color: grey;
+            color: rgb(0, 0, 0);
             display: flex;
             align-items: center;
             justify-content: center;
